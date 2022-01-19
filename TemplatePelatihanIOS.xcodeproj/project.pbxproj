@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC05D3FF2794581B00C5012D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05D3FE2794581B00C5012D /* LoginVC.swift */; };
-		AC05D4012794821C00C5012D /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05D4002794821C00C5012D /* RegisterVC.swift */; };
 		AC25FC1527911A11008AA462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25FC1427911A11008AA462 /* AppDelegate.swift */; };
 		AC25FC1727911A11008AA462 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25FC1627911A11008AA462 /* SceneDelegate.swift */; };
 		AC25FC1927911A11008AA462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25FC1827911A11008AA462 /* ViewController.swift */; };
@@ -18,6 +16,11 @@
 		AC25FC2C27911A13008AA462 /* TemplatePelatihanIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25FC2B27911A13008AA462 /* TemplatePelatihanIOSTests.swift */; };
 		AC25FC3627911A13008AA462 /* TemplatePelatihanIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25FC3527911A13008AA462 /* TemplatePelatihanIOSUITests.swift */; };
 		AC25FC3827911A13008AA462 /* TemplatePelatihanIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25FC3727911A13008AA462 /* TemplatePelatihanIOSUITestsLaunchTests.swift */; };
+		AC44B14B279719B30050C35A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44B14A279719B30050C35A /* ProfileVC.swift */; };
+		AC66AD2F27958F050014CE13 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66AD2D27958F050014CE13 /* LoginVC.swift */; };
+		AC66AD3027958F050014CE13 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66AD2E27958F050014CE13 /* RegisterVC.swift */; };
+		AC66AD32279597370014CE13 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66AD31279597370014CE13 /* MainVC.swift */; };
+		AC66AD362795C7F90014CE13 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66AD352795C7F90014CE13 /* MainCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC05D3FE2794581B00C5012D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		AC05D4002794821C00C5012D /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		AC25FC1127911A11008AA462 /* TemplatePelatihanIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplatePelatihanIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC25FC1427911A11008AA462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC25FC1627911A11008AA462 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +54,11 @@
 		AC25FC3127911A13008AA462 /* TemplatePelatihanIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplatePelatihanIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC25FC3527911A13008AA462 /* TemplatePelatihanIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatePelatihanIOSUITests.swift; sourceTree = "<group>"; };
 		AC25FC3727911A13008AA462 /* TemplatePelatihanIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatePelatihanIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC44B14A279719B30050C35A /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		AC66AD2D27958F050014CE13 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AC66AD2E27958F050014CE13 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		AC66AD31279597370014CE13 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		AC66AD352795C7F90014CE13 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +112,11 @@
 				AC25FC1427911A11008AA462 /* AppDelegate.swift */,
 				AC25FC1627911A11008AA462 /* SceneDelegate.swift */,
 				AC25FC1827911A11008AA462 /* ViewController.swift */,
-				AC05D3FE2794581B00C5012D /* LoginVC.swift */,
-				AC05D4002794821C00C5012D /* RegisterVC.swift */,
+				AC66AD2D27958F050014CE13 /* LoginVC.swift */,
+				AC66AD2E27958F050014CE13 /* RegisterVC.swift */,
+				AC66AD31279597370014CE13 /* MainVC.swift */,
+				AC66AD352795C7F90014CE13 /* MainCell.swift */,
+				AC44B14A279719B30050C35A /* ProfileVC.swift */,
 				AC25FC1A27911A11008AA462 /* Main.storyboard */,
 				AC25FC1D27911A12008AA462 /* Assets.xcassets */,
 				AC25FC1F27911A13008AA462 /* LaunchScreen.storyboard */,
@@ -265,10 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC25FC1927911A11008AA462 /* ViewController.swift in Sources */,
+				AC66AD362795C7F90014CE13 /* MainCell.swift in Sources */,
+				AC66AD32279597370014CE13 /* MainVC.swift in Sources */,
 				AC25FC1527911A11008AA462 /* AppDelegate.swift in Sources */,
-				AC05D3FF2794581B00C5012D /* LoginVC.swift in Sources */,
+				AC44B14B279719B30050C35A /* ProfileVC.swift in Sources */,
+				AC66AD2F27958F050014CE13 /* LoginVC.swift in Sources */,
 				AC25FC1727911A11008AA462 /* SceneDelegate.swift in Sources */,
-				AC05D4012794821C00C5012D /* RegisterVC.swift in Sources */,
+				AC66AD3027958F050014CE13 /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
